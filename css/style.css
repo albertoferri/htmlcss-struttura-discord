@@ -40,6 +40,7 @@ a{
 
 /* main */
 
+/* inizio container top */
 .container-top{
     display: flex;
     justify-content: center;
@@ -54,8 +55,10 @@ a{
     height: 398px;
     border: 2px black dashed;
 }
+/* fine container top */
 
 
+/* inizio section */
 .text-left{
     display: flex;
     justify-content: center;
@@ -84,7 +87,9 @@ a{
     height: 496px;
     border: 2px black dashed;
 }
+/* fine section */
 
+/* inizio green section */
 .green-sec{
     display: flex;
     justify-content: center;
@@ -99,3 +104,31 @@ a{
     height: 893px;
     border: 2px black dashed;
 }
+/* fine green section */
+
+/* inizio foot section */
+.foot-sec{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #23272a;
+    min-height: 625px; 
+    max-width: 1906px;
+    padding-left: 325px;
+    padding-right: 325px;
+}
+
+.red-rec{
+    background-color: #ec8281;
+    width: 357px;
+    height: 577px;
+    border: 2px black dashed;
+}
+
+.a-column{
+    background-color: #36b2aa;
+    width: 417px;
+    height: 577px;
+    border: 2px white dashed;
+}
+/* fine foot section */
