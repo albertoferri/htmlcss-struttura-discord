@@ -17,13 +17,13 @@ body{
     justify-content: space-between;
     border: 1px black dashed;
     background-color: #d5a82b;
-    max-width: 1192px;
+    max-width: 1191px;
 }
 
 
 header{
     background-color: #b1d7e5;
-    padding: 14px 325px;
+    padding: 14px 350px 14px 365px;
     }
 
 .link-top{
