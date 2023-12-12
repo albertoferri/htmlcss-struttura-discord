@@ -48,7 +48,7 @@ a{
     min-height: 496px;
 }
 
-#rec-rose{
+.rec-rose{
     background-color: #ed7fed;
     width: 905px;
     height: 398px;
@@ -61,17 +61,41 @@ a{
     justify-content: center;
     align-items: center;
     min-height: 596px;
-    border: 1px black solid;
+}
+
+.text-right{
+    display: flex;
+    background-color: #d3d3d3;
+    justify-content: center;
+    align-items: center;
+    min-height: 596px;
 }
 
 .square-rose{
     background-color: #fcc0cb;
     width: 476px;
     height: 496px;
+    border: 2px black dashed;
 }
 
 .rec-blue{
     background-color: #468afd;
     width: 715px;
     height: 496px;
+    border: 2px black dashed;
+}
+
+.green-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d3d3d3;
+    min-height: 992px;
+}
+
+.rec-green{
+    background-color: #258c26;
+    width: 1191px;
+    height: 893px;
+    border: 2px black dashed;
 }
