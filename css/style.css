@@ -113,7 +113,7 @@ a{
     align-items: center;
     background-color: #23272a;
     min-height: 625px; 
-    max-width: 1906px;
+    width: 1906px;
     padding-left: 325px;
     padding-right: 325px;
 }
@@ -127,8 +127,30 @@ a{
 
 .a-column{
     background-color: #36b2aa;
-    width: 417px;
+    width: 208px;
     height: 577px;
     border: 2px white dashed;
 }
 /* fine foot section */
+
+/* inizio footer */
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #23272a;
+
+}
+
+#foot{
+   display: flex;
+   justify-content: space-between;
+   background-color: #87ffd4;
+   min-width: 1193px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+#foot>div{
+    background-color: #fcb7c1;
+    border: 2px black dashed;
+}
+/* fine footer */
