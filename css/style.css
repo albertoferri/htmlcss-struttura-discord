@@ -22,11 +22,10 @@ body{
 
 header{
     background-color: #b1d7e5;
-    padding: 15px 50px;
+    padding: 14px 50px;
 }
 
 .link-top{
-    flex-grow: 0;
     border-left: 2px black dashed;
     border-right: 2px black dashed;
     text-align: center;
@@ -41,3 +40,38 @@ a{
 
 /* main */
 
+.container-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c008a;
+    min-height: 496px;
+}
+
+#rec-rose{
+    background-color: #ed7fed;
+    width: 905px;
+    height: 398px;
+    border: 2px black dashed;
+}
+
+
+.text-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 596px;
+    border: 1px black solid;
+}
+
+.square-rose{
+    background-color: #fcc0cb;
+    width: 476px;
+    height: 496px;
+}
+
+.rec-blue{
+    background-color: #468afd;
+    width: 715px;
+    height: 496px;
+}
